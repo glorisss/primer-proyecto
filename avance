@@ -1,0 +1,107 @@
+!DOCTAPE html>
+<html lang="es">
+	<head>
+		<meta charset="UFT-8">
+		<title>Página de big Data</title>
+		<style>
+
+			/*editandi los tag*/
+			body{
+				background-color: butt;
+			}
+			table,tr,th,td{
+				border: 1px solid black;
+			}
+			div{
+				margin:18px;
+				padding: 25px;
+			}
+			/*Editando clases*/
+			.titulo{
+				text-align: center;
+			}
+			.centrado{
+				text-align: center; 
+			}
+			.unidad{
+				background-color: orange;
+				color: blue;
+			}
+			.titulo-unidad{
+				font-size: 28px;
+				text-align: center;
+				background-color: orange;
+				color: black;
+			}
+			.contenido-unidad{
+				color: brown;
+			}
+			/*Editando un id*/
+			#titulo-div{
+				color: char
+			}
+			#titulo-img{
+				color: chartreuse;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div>
+
+			<h1>Mi primer texto en el body</h1>
+			<div>
+				<h4>Big Data</h4>
+					<h3 class="titulo-div">Unidad de HTML</h3>
+					<p>aprendiendo las nociones básicas de HTML</p>
+					<div>
+						<h4>¿Cómo hacer un link?</h4>
+						<p>Link (a)</p>
+						<a href="https://www.wattpad.com/383424698-la-hija-de-molly-peter-pan-y-t%C3%BA-%E2%80%A21-cumplea%C3%B1os%E2%80%A2">Leer wattpat</a>
+					</div>
+					<div>
+						<h4 class="titulo-img">¿Cómo hacer tu div? </h4>
+						<p>&#60;div&#62;contenido&#60;/div&#62;</p>
+						<img src="div.png" width="500px">
+					</div>
+					<div>
+						<h4>¿Cómo insertar imagen?</h4>
+						<p>Imagen (img/png)</p>
+						<p>&#60;img src="path/nombre_imagen.png" width="500px"/&#62;</p>
+						<img src="Gatito.jfif" width="500px">
+					</div>
+				</div>
+			</div>
+			<h6>By Gloria Díaz</h6>
+		</div>	
+		<div>
+				<!--Creación de una tabla-->
+			<table class="centrado">
+				<tr>
+					<th>Animal</th>
+					<th>Nombre</th>
+					<th>Link</th>
+				</tr>
+				<tr>
+					<td>Gato</td>
+					<td>Egipto</td>
+					<td><a href="https://www.petsonic.com/blog/gato-antiguo-egipto/">Click aquí</a></td>
+				</tr>
+				<tr>
+					<td>Felino</td>
+					<td>Grandes felinos</td>
+					<td><a href="https://www.ecologiaverde.com/tipos-de-felinos-sus-caracteristicas-y-ejemplos-2609.html">Click aquí</a> </td>
+				</tr>
+			<table>
+				<tr>
+					<th>unidad</th>
+					<th>materia</th>
+					<th>link</th>
+				</tr>
+				<tr>
+					<td>Unidad 1</td>
+					<td>conceptos báscios HTML</td>
+					<td>>ahref="#">click aqui</a></td>
+				</tr>
+			</table>
+		</div>
